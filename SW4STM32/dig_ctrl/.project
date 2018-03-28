@@ -23,12 +23,18 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
 	</natures>
 	<linkedResources>
 		<link>
 			<name>Application/SW4STM32/startup_stm32f103xb.s</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/startup_stm32f103xb.s</locationURI>
+		</link>
+		<link>
+			<name>Application/User/commands.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Src/commands.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/console.c</name>

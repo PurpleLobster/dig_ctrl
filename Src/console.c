@@ -6,6 +6,8 @@
  */
 
 #include "console.h"
+#include "commands.h"
+
 
 UART_HandleTypeDef *huart;
 
@@ -65,6 +67,9 @@ while (buf_start != buf_end)
 }
 void ConsoleParseCommand (void)
 {
+
+
+	testje();
 
 	HAL_UART_Transmit_IT(huart, commandline, commandlineIndex);
 	commandlineIndex=0;
